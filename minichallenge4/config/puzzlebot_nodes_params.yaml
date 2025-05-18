@@ -1,0 +1,19 @@
+robot1:
+  puzzlebot_localization:
+    ros__parameters:
+      localization_update_rate: 50.0
+      initial_pose:
+        x: 1.0
+        y: 1.0
+        theta: 0.0
+
+  puzzlebot_controller:
+    ros__parameters:
+      controller_update_rate: 50.0
+      distance_tolerance: 0.01
+      angular_tolerance: 0.017
+      v_Kp: 0.5
+      alpha_Kp: 1.0
+      beta_Kp: -0.75
+      v_max: 1.0
+      w_max: 3.14
